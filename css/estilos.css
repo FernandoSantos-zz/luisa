@@ -63,12 +63,12 @@ footer
   max-width: 30%;
   min-height: 200px;
 }
-.fecha:nth-last-child(odd){
+.fecha:nth-last-child(even){
   border-left: 2px solid #777;
   border-right: 2px solid #777;
   padding: 0 10px;
 }
 div:nth-last-of-type(3){
-  width: 150px;
+  width: 130px;
   margin-left: -70px;
 }
