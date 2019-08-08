@@ -29,11 +29,22 @@ hr {
   border-top: 8px dotted;
   border-color: #777;
   width: 60%;
+  margin-bottom: 30px;
+}
+a{
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #fff;
+  text-decoration: none;
+  background: #333;
+  padding: 10px;
+  border-radius: 6px;
 }
 p{
   font-size: 20px;
   letter-spacing: 5px;
   color: #333;
+  text-decoration: none;
 }
 strong{
   font-size: 40px;
@@ -49,6 +60,12 @@ footer
 .fecha
 {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 10px ;
   max-width: 30%;
+  min-height: 200px;
+}
+.fecha:nth-last-child(odd){
+  border-left: 2px solid #777;
+  border-right: 2px solid #777;
+  padding: 0 10px;
 }
