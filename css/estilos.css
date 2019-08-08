@@ -63,7 +63,7 @@ footer
   max-width: 30%;
   min-height: 200px;
 }
-.fecha:nth-last-child(even){
+.fecha:nth-last-child(odd){
   border-left: 2px solid #777;
   border-right: 2px solid #777;
   padding: 0 10px;
